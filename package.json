@@ -6,11 +6,11 @@
     "framework/libraries/*"
   ],
   "scripts": {
-    "build": "bun --cwd framework/libraries/search run build",
-    "typecheck": "bun --cwd framework/libraries/search run typecheck",
-    "lint": "bun --cwd framework/libraries/search run lint",
-    "test": "bun --cwd framework/libraries/search run test",
-    "test:unit": "bun --cwd framework/libraries/search run test:unit",
+    "build": "bun run --cwd framework/libraries/search build",
+    "typecheck": "bun run --cwd framework/libraries/search typecheck",
+    "lint": "bun run --cwd framework/libraries/search lint",
+    "test": "bun run --cwd framework/libraries/search test",
+    "test:unit": "bun run --cwd framework/libraries/search test:unit",
     "docs:summary": "node scripts/docs-summary.mjs",
     "docs:check": "node scripts/docs-check.mjs"
   }

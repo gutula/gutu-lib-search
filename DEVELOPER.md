@@ -35,6 +35,7 @@ Provides shared search-oriented helpers and result contracts that other packages
 | Package ID | `search` |
 | Display Name | Search |
 | Import Name | `@platform/search` |
+| Canonical Namespace Target | `@gutu/search` |
 | Version | `0.1.0` |
 | UI Surface | Headless typed exports |
 | Consumption Model | Imports + typed helpers |
@@ -48,6 +49,7 @@ Provides shared search-oriented helpers and result contracts that other packages
 | Dev Dependencies | None |
 | React Runtime | No |
 | Workspace Scoped | No |
+| Legacy Compatibility IDs | `@platform/search` |
 
 ### Dependency interpretation
 

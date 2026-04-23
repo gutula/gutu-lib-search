@@ -3,6 +3,7 @@ const summary = {
   "repoName": "gutu-lib-search",
   "packageId": "search",
   "displayName": "Search",
+  "packageCount": 1,
   "group": "Core Data And Query",
   "maturity": "Hardened",
   "description": "Search abstraction layer.",
